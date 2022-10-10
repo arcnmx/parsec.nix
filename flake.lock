@@ -1,0 +1,77 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1665444860,
+        "narHash": "sha256-w6LaHXvqPi64Az0NSlGnc7MluT11pOMIagflN2PhYxo=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "205e805d51eecde255764e03d329839ea9baacae",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "parsec-linux-appdata": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-ZYnH7SWntTlW90znbc3IoTiiAUfAb0UEzkCGoY8J0/4=",
+        "type": "file",
+        "url": "https://builds.parsecgaming.com/channel/release/appdata/linux/latest"
+      },
+      "original": {
+        "type": "file",
+        "url": "https://builds.parsecgaming.com/channel/release/appdata/linux/latest"
+      }
+    },
+    "parsec-linux-package": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-SihawQ7u031f3PiquJPsFDwf64tN1WYVGY22XZ3ChnA=",
+        "type": "file",
+        "url": "https://builds.parsecgaming.com/package/parsec-linux.deb"
+      },
+      "original": {
+        "type": "file",
+        "url": "https://builds.parsecgaming.com/package/parsec-linux.deb"
+      }
+    },
+    "parsec-rpi-appdata": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-XtbcTZ4tA40U6k9LZnZwfSn6Qj15tGIeAYNIglum60Y=",
+        "type": "file",
+        "url": "https://builds.parsecgaming.com/channel/release/appdata/rpi/latest"
+      },
+      "original": {
+        "type": "file",
+        "url": "https://builds.parsecgaming.com/channel/release/appdata/rpi/latest"
+      }
+    },
+    "parsec-rpi-package": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-WCkrFf3YwHFsVnSXbi/6zM1OLjn/BpoLvFeW4bP9IUw=",
+        "type": "file",
+        "url": "https://builds.parsecgaming.com/package/parsec-rpi.deb"
+      },
+      "original": {
+        "type": "file",
+        "url": "https://builds.parsecgaming.com/package/parsec-rpi.deb"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "parsec-linux-appdata": "parsec-linux-appdata",
+        "parsec-linux-package": "parsec-linux-package",
+        "parsec-rpi-appdata": "parsec-rpi-appdata",
+        "parsec-rpi-package": "parsec-rpi-package"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
